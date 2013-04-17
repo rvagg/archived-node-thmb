@@ -1,0 +1,32 @@
+{
+    "name"             : "thmb"
+  , "description"      : "An image thumbnailer"
+  , "version"          : "0.0.0"
+  , "homepage"         : "https://github.com/rvagg/node-thmb"
+  , "authors"          : [
+        "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
+    ]
+  , "keywords"         : [ "image", "thumbnail", "canvas" ]
+  , "main"             : "./thmb.js"
+  , "repository"       : {
+        "type"             : "git"
+      , "url"              : "https://github.com/rvagg/node-thmb.git"
+    }
+  , "dependencies"     : {
+        "canvas"           : "~1.0.2"
+      , "crp"              : "~0.0.0"
+      , "rsz"              : "~0.2.0"
+      , "sz"               : "~0.0.1"
+      , "after"            : "~0.7.0"
+      , "xtend"            : "~2.0.3"
+    }
+  , "peerDependencies" : {
+    }
+  , "devDependencies"  : {
+        "tap"              : "*"
+    }
+  , "scripts"          : {
+        "test"             : "node ./test.js"
+    }
+  , "license"          : "MIT"
+}
