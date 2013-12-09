@@ -13,10 +13,10 @@
       , "url"              : "https://github.com/rvagg/node-thmb.git"
     }
   , "dependencies"     : {
-        "crp"              : "~0.0.0"
-      , "rsz"              : "~0.2.0"
-      , "sz"               : "~0.0.1"
-      , "after"            : "~0.7.0"
+        "crp"              : "~0.0.2"
+      , "rsz"              : "~0.2.3"
+      , "sz"               : "~0.0.2"
+      , "after"            : "~0.8.1"
       , "xtend"            : "~2.1.1"
     }
   , "peerDependencies" : {
@@ -24,6 +24,7 @@
     }
   , "devDependencies"  : {
         "tap"              : "*"
+      , "canvas"           : "~1.1.2"
     }
   , "scripts"          : {
         "test"             : "node ./test.js"
