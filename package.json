@@ -1,7 +1,7 @@
 {
     "name"             : "thmb"
   , "description"      : "An image thumbnailer"
-  , "version"          : "0.0.1"
+  , "version"          : "0.0.2"
   , "homepage"         : "https://github.com/rvagg/node-thmb"
   , "authors"          : [
         "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
@@ -13,14 +13,14 @@
       , "url"              : "https://github.com/rvagg/node-thmb.git"
     }
   , "dependencies"     : {
-        "canvas"           : "~1.0.2"
-      , "crp"              : "~0.0.0"
+        "crp"              : "~0.0.0"
       , "rsz"              : "~0.2.0"
       , "sz"               : "~0.0.1"
       , "after"            : "~0.7.0"
       , "xtend"            : "~2.1.1"
     }
   , "peerDependencies" : {
+        "canvas"           : "~1.1.2"
     }
   , "devDependencies"  : {
         "tap"              : "*"
